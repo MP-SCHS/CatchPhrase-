@@ -54,7 +54,7 @@ const words = [
   "Viral Video", "Clickbait", "Emoji", "Meme", "Avatar", 
   "Yoda", "Baby Yoda", "Chewbacca", "Hogwarts", "Gryffindor", 
   "Gotham City", "Batcave", "Daily Bugle", "Wakanda", "Infinity Gauntlet", 
-  "Transformers", "Optimis Prime", "Megatron", "Zelda", "Pikachu", "Cabernet"
+  "Transformers", "Optimis Prime", "Megatron", "Zelda", "Pikachu",
   
   // --- Places, Activities & Nature ---
   "Barbecue", "Coffee Mug", "Lawn Mower", "Remote Control", "Fishing Rod",
