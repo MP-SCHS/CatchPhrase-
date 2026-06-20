@@ -3,18 +3,46 @@ const line2 = document.getElementById('line2');
 const actionBtn = document.getElementById('action-btn');
 
 // Word Bank
-const words = [
-  "Barbecue", "Coffee Mug", "Dad Joke", "Lawn Mower", 
-  "Remote Control", "Slippers", "Fishing Rod", "Golf Club",
-  "Football", "Hammock", "Toolbox", "Necktie",
-  "Sneakers", "Tape Measure", "Duct Tape", "Grill Master",
-  "Fanny Pack", "Cargo Shorts", "Thermostat", "Garage",
-  "Star Wars", "Super Mario", "Pac Man", "Batman",
-  "Spider Man", "Harry Potter", "Jurassic Park", "Avengers",
-  "Apple Pie", "Hot Dog", "Hamburger", "Taco Tuesday",
-  "Pizza Party", "Pancakes", "Ice Cream", "Bacon",
-  "High Five", "Couch Potato", "Brainstorm", "Roller Coaster",
-  "Campfire", "Skyscraper", "Time Machine", "Snowman"
+const words = [// --- Dad, Tools & Gadgets ---
+  "Barbecue", "Coffee Mug", "Dad Joke", "Lawn Mower", "Remote Control", 
+  "Slippers", "Fishing Rod", "Golf Club", "Football", "Hammock", 
+  "Toolbox", "Necktie", "Sneakers", "Tape Measure", "Duct Tape", 
+  "Grill Master", "Fanny Pack", "Cargo Shorts", "Thermostat", "Garage", 
+  "Pocket Knife", "Flashlight", "WD-40", "Car Wash", "Leaf Blower",
+  "Leather Wallet", "Flannel Shirt", "Recliner", "Work Bench", "Oldies Radio",
+
+  // --- Pop Culture & Media ---
+  "Star Wars", "Super Mario", "Pac Man", "Batman", "Spider Man", 
+  "Harry Potter", "Jurassic Park", "Avengers", "Minecraft", "Sherlock Holmes", 
+  "James Bond", "The Matrix", "Indiana Jones", "Ghostbusters", "Back To The Future",
+  "Lord of the Rings", "Luke Skywalker", "Darth Vader", "Iron Man", "Doctor Who",
+
+  // --- Food, Drink & Grilling ---
+  "Apple Pie", "Hot Dog", "Hamburger", "Taco Tuesday", "Pizza Party", 
+  "Pancakes", "Ice Cream", "Bacon", "Donut Hole", "French Fries", 
+  "Popcorn", "Smoothie", "Buffalo Wings", "Beef Jerky", "Maple Syrup",
+  "Barbecue Sauce", "Steak Knife", "Fried Chicken", "Watermelon", "Apple Cider",
+
+  // --- Nature, Travel & Places ---
+  "Campfire", "Skyscraper", "Submarine", "Helicopter", "Astronaut", 
+  "Mount Everest", "Grand Canyon", "Eiffel Tower", "Yellowstone", "Amusement Park",
+  "Sandy Beach", "Treehouse", "Hiking Trail", "Waterfall", "Coral Reef",
+  "Space Shuttle", "Cruise Ship", "Hot Air Balloon", "Railway Station", "Cabin In The Woods",
+
+  // --- Fun Idioms, Actions & Catchphrases ---
+  "High Five", "Couch Potato", "Brainstorm", "Roller Coaster", "Treasure Hunt", 
+  "Spaghetti", "Woodpecker", "Boomerang", "Snowman", "Lightning Bolt", 
+  "Time Machine", "Piece Of Cake", "Break A Leg", "Under The Weather", "Spill The Beans",
+  "Wild Goose Chase", "Blessing In Disguise", "Cry Over Spilt Milk", "Bite The Bullet", "Hit The Sack",
+  
+  // --- Games, Sports & Hobbies ---
+  "Checkers", "Chess Match", "Ping Pong", "Billiards", "Bowling Alley",
+  "Baseball Diamond", "Basketball Hoop", "Soccer Ball", "Skateboarding", "Surfing",
+  "Comic Books", "Board Game", "Card Shark", "Jigsaw Puzzle", "Crossword",
+  
+  // --- Animals & Creatures ---
+  "Bald Eagle", "Grizzly Bear", "Golden Retriever", "Tyrannosaurus Rex", "Great White Shark",
+  "Chameleon", "Kangaroo", "Bumblebee", "Sea Turtle", "Albatross"
 ];
 
 let gameActive = false;
